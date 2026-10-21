@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "node api.js && node server.js",
-    "start": "node api.js && node server.js",
-    "preinstall": "node dist/setup.js"
+    "dev": "node init && node server.js",
+    "start": "node init && node server.js"
   },
   "dependencies": {
     "express": "^4.21.2",
